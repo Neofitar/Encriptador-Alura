@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UFT-8">
+    <title name="Encriptador Alura"></title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ruda:wght@500&display=swap" rel="stylesheet">
+    <script src="./encriptador.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="cabecera">
+            <img src="./img/logo.png" alt="logo">
+            <h1>Encriptador</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="encriptador">
+            <textarea class="textoIngresado" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="mensaje">
+                <p><strong>!</strong>Solo letras en minúsculas y sin acentos.</p>
+                <button class="btn-encriptar" onclick="btnEncriptador()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="mensaje-encriptado">
+            
+            <div>
+                <textarea class="textoSalida" id="textoSalida" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <button class="btn-copiar" onclick="btnCopiarTexto()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Nicol Daniela Guevara</p>
+        <p>Alura 2023</p>
+    </footer>
+
+</body>
+
+
+
+</html>
