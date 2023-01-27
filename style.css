@@ -61,7 +61,7 @@ main {
     padding-bottom: 20%;
     border-radius: 15px;
     width: 600px;
-    height: 210px;
+    height: 100px;
     resize: none;
     border: solid 30px white;
     background-color: rgb(255, 255, 255);
@@ -85,7 +85,7 @@ main {
     font-family: 'Ruda';
     padding-bottom: 30px;
     width: 250px;
-    height: 330px;
+    height: 250px;
     border-radius: 20px;
     resize: none; 
     border: none;
@@ -140,7 +140,7 @@ button {
     cursor: pointer;
     text-align: center;
     font-family: 'Ruda';
-    margin: 10px;
+    margin: 20px;
 
 
 }
