@@ -6,6 +6,7 @@
 
 body {
     display: flexbox;
+    width: 100%;
     font-family: 'Ruda', sans-serif;
     color: #ffffff;
     background-image: linear-gradient(
@@ -95,7 +96,7 @@ main {
 
 .mensaje {
     display: flexbox;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -192,3 +193,45 @@ footer {
     
     }
 }
+
+@media screen and (max-width:380px){
+
+    .encriptador textarea {
+        display: inline-block;
+        justify-content: center;
+        width: 200px;
+    }    
+
+    .mensaje-encriptado textarea {
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+    }    
+
+    button {
+        display: inline-block;
+        width: 150px;
+        height: 36px;
+        border-radius: 15px;
+        margin: 10px;
+    
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    .cabecera img {
+        width: 65px;
+    }
+    
+    .cabecera h1 {
+        font-size: 35px;
+    }
+
+    .mensaje {
+        font-size: 15px;
+    }
+}
+
