@@ -1,8 +1,5 @@
-![image](https://user-images.githubusercontent.com/111058276/214995408-8902bf58-df3d-4b92-b706-9374640329da.png)
-___
-
 # Encriptador de texto - Sprint 1 Alura
-___
+![image](https://user-images.githubusercontent.com/111058276/214995408-8902bf58-df3d-4b92-b706-9374640329da.png)
 
 ## Objetivo:
 El reto consiste en crear una página web que cifre y descifre el texto ingresado por el usuario.
